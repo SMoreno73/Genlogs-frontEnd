@@ -119,7 +119,7 @@ export default function MapView({ from, to, isMapsReady, mapsEnabled }) {
 
         {!mapsEnabled && (
           <Alert severity="info">
-            Add a valid Google Maps API key in `.env` to enable the map, Places autocomplete, and
+            Check Google Maps API settings to enable the map, Places autocomplete, and
             route calculation.
           </Alert>
         )}

@@ -63,7 +63,7 @@ export default function Home() {
               variant="overline"
               sx={{ color: 'primary.main', letterSpacing: '0.2em', fontWeight: 800 }}
             >
-              Transport Intelligence Portal
+              Genlogs
             </Typography>
             <Typography variant="h2" sx={{ fontSize: { xs: '2.7rem', md: '4.4rem' }, mt: 1 }}>
               Search routes. Visualize options. Match carriers.
