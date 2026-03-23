@@ -1,0 +1,29 @@
+:root {
+  color: #1f2937;
+  background:
+    radial-gradient(circle at top left, rgba(15, 118, 110, 0.14), transparent 28%),
+    radial-gradient(circle at bottom right, rgba(249, 115, 22, 0.16), transparent 24%),
+    linear-gradient(180deg, #f8f2e7 0%, #f3eadc 52%, #f6f1ea 100%);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.gm-style iframe + div {
+  border-radius: 24px;
+}
